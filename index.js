@@ -67,6 +67,7 @@ const getValue = async ()=>{
     } else {
         noInput();
         // console.log(data.skyData);
+        message.innerHTML = 'Please enter city name'
         message.style.display = 'block';
 
     }
